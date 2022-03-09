@@ -32,8 +32,7 @@ jobs:
       - name: Build Docker4
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: simonmcnair/test:latest
-          tags: v1, latest
+          image: simonmcnair/test
           registry: docker.io
           #dockerfile: Dockerfile.ci
           username: ${{ secrets.DOCKER_USERNAME }}
