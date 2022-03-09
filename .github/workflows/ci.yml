@@ -32,7 +32,7 @@ jobs:
       - name: Build Docker2
       - uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: repo/image
+          image: simonmcnair/test
           tags: v1, latest
           registry: docker.io
           dockerfile: Dockerfile.ci
