@@ -34,7 +34,6 @@ jobs:
         with:
           image: simonmcnair/test
           registry: docker.io
-          tag: latest
           #dockerfile: Dockerfile.ci
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
