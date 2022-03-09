@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
         
       - name: Build Docker4
-      - uses: mr-smithers-excellent/docker-build-push@v5
+        uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: simonmcnair/test
           tags: v1, latest
