@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          echo Hello, world!
+          echo Hello, world !
           echo ${{ secrets.DOCKER_USERNAME }}
           echo ${{ secrets.DOCKER_PASSWORD }}
           
